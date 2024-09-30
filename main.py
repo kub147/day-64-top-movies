@@ -11,7 +11,7 @@ import requests
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = ''
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///movies-collection.db"
 MOVIE_DB_API_KEY = '777d4be9c0bdec470505c18724e8ada0'
 MOVIE_DB_SEARCH_URL = 'https://api.themoviedb.org/3/search/movie'
